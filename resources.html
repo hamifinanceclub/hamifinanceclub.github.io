@@ -9,6 +9,42 @@
 		<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel='stylesheet'>
 		<script src = "hamiJS.js"></script>
 		<title>Hamilton Finance Club</title>
+		<style>
+
+		div.polaroid {
+		  width: 25%;
+		  background-color: white;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		  margin-bottom: 25px;
+		}
+
+		div.container {
+		  text-align: center;
+		  padding: 10px 10px;
+		}
+
+		div.container > p {
+			font-size:20px;
+			color: #222222;
+			text-decoration: underline;
+			text-decoration-color: #1ec173;
+			font-weight:700;
+		}
+		
+		.flex-container{
+			display: flex;
+			flex-wrap: wrap;
+			position: relative;
+			top: 15px;
+			padding-left: 20px;
+			padding-right: 20px;
+			justify-content: center;
+		}
+
+		.flex-container > div {
+		  margin: 20px;
+		}
+		</style>
 	</head>
 	
 	<body>
@@ -29,11 +65,37 @@
 		<a href="resources.html" class = "active">Resources</a>
 		<a href="contact.html">Contact</a>
 	</div>
-		
-	<div style="width:100%">
-		<img src="https://www.seekpng.com/png/detail/66-668670_board-under-construction-sign.png" alt="Under Construction" style = "margin:auto;height:300px;width:auto;display: block;position:relative;top:30px; border-radius:8px">
-	</div>
 
+	<div class="flex-container">
+
+		<div class="polaroid">
+			<a href="https://drive.google.com/drive/folders/1Jlzb8VylxyBsnJhnkGMNJ5DO9xGeVkfY?usp=sharing">
+				<img src="slides.png" alt="Past Meetings" style="width:100%">
+				<div class="container">
+					<p>Past Meeting Slides</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="polaroid">
+			<a href="construction.html">
+				<img src="investopedia.jpg" alt="Norther Lights" style="width:100%">
+				<div class="container">
+					<p>Investopedia Guide</p>
+				</div>
+			</a>
+		</div>
+		
+		<div class="polaroid">
+			<a href="construction.html">
+				<img src="sites.jpg" alt="Norther Lights" style="width:100%">
+				<div class="container">
+					<p>Useful Websites</p>
+				</div>
+			</a>
+		</div>
+		
+	</div>
 	</body>
 	
 </html>
